@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    background-image: url(images/50-Beautiful-and-Minimalist-Presentation-Backgrounds-08.jpg);
+}
+
+nav{
+    background-color: rgba(32, 178, 170,0.5);
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow:  0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.search-city{
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.search-city:hover{
+    border-color: lightseagreen;
+}
+
+.fa{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.location{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin-bottom: 20vh;
+    font-size: 1.5rem;
+}
+
+.temperature{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1rem;
+
+}
+
+.temperature-degree{
+    align-self: center;
+    cursor: pointer;
+}
+
+.temperature-des{
+    color: gray;
+    font-weight: 500;
+}
+
+.degree-section{
+    display: flex;
+}
+
+span{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    font-weight: 400;
+}
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Covid-19 Tracker</title>
+</head>
+<body>
+    <div class="container">
+        <span>
+        <h1>Covid-19 Tracker</h1></span>
+        <table class="ui celled table">
+            <thead>
+              <tr><th>Total Cases</th>
+              <th>Total Deaths</th>
+              <th>Total Recoveries</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td class="cases">Fetching data...</td>
+                <td class="deaths">Fetching data...</td>
+                <td class="recoveries">Fetching data...</td>
+              </tr>
+            </tbody>
+          </table>
+          <button class="refresh">Refresh Data</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

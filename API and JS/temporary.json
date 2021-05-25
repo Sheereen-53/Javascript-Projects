@@ -1,0 +1,11 @@
+{
+    "Latitude" : 22.5459,
+    "Longitude" : 72.9294,
+    "city" : "Anand",
+    "state" : "Gujarat",
+    "Country" : "India",
+    "main" : {
+        "temperature" : 27,
+        "description" : "Cloudy"
+    }
+}
